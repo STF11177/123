@@ -23,6 +23,9 @@ class testCell: UITableViewCell {
        self.titleLable?.text = "james"
        self.addSubview(self.titleLable!)
         
+        
+        
+        //
        self.headImageView = UIImageView.init(image:UIImage(named:"Spotlight_app"))
        self.headImageView?.layer.cornerRadius = 10
        self.headImageView?.layer.masksToBounds = true
